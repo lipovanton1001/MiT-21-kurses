@@ -263,7 +263,7 @@ th, td {
 }
 
 .menu_button:hover {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(220, 127, 238);
   color: white;
   transition: 0.25s;
 }
@@ -279,7 +279,7 @@ th, td {
 }
 
 .menu_radio:checked + .menu_button {
-  border-bottom: 3px solid rgb(255, 0, 0);
+  border-bottom: 3px solid rgb(230, 130, 225);
 }
 
 .menu_radio:first-child + .menu_button {
