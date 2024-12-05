@@ -138,7 +138,7 @@ document.addEventListener('click', (e) => {
         const children = Array.from(parent.children); // children of formulaFolder
         const index = children.indexOf(child); // index of formula template
         console.log(index);
-        const urlToMerge = "http://127.0.0.1:5500/formula.html";
+        const urlToMerge = "Tests/formula.html";
         console.log
         window.location.href = `${urlToMerge}formula.html${url.search}&id=${index}`;
     }
