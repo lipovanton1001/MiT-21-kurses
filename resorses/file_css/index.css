@@ -231,9 +231,9 @@ index-page
 }
 
 .table {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 0.5rem;
-  box-shadow: -1px 1px 5px rgb(204, 204, 204);
+  box-shadow: -1px 1px 5px rgb(112, 255, 219);
   padding: 0 0.2rem;
   width: 100%;
   text-align: left;
@@ -255,7 +255,7 @@ th, td {
   display: flex;
   margin: 1rem 0;
   border-radius: 0.3rem;
-  box-shadow: -1px 1px 5px rgb(204, 204, 204);
+  box-shadow: -1px 1px 5px rgb(112, 255, 219);
 }
 
 .menu_button {
@@ -263,7 +263,7 @@ th, td {
 }
 
 .menu_button:hover {
-  background-color: rgb(220, 127, 238);
+  background-color: rgb(62, 198, 164);
   color: white;
   transition: 0.25s;
 }
@@ -279,7 +279,7 @@ th, td {
 }
 
 .menu_radio:checked + .menu_button {
-  border-bottom: 3px solid rgb(230, 130, 225);
+  border-bottom: 3px solid rgb(62, 198, 164);
 }
 
 .menu_radio:first-child + .menu_button {
@@ -318,7 +318,7 @@ content-page
 .text_input {
   background-color: white;
   border-radius: 0.5rem;
-  box-shadow: -1px 1px 5px rgb(204, 204, 204);
+  box-shadow: -1px 1px 5px rgb(112, 255, 219);
   max-width: 100%;
   padding: 0.8rem;
   margin: 2rem;
@@ -343,7 +343,7 @@ content-page
 }
 
 .discard, .create_formula, .save {
-  box-shadow: -1px 1px 5px rgba(229, 229, 229, 0.649);
+  box-shadow: -1px 1px 5px rgb(112, 255, 219);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -378,7 +378,7 @@ content-page
 .empty-state {
   background-color: white;
   border-radius: 0.5rem;
-  box-shadow: -1px 1px 5px rgb(204, 204, 204);
+  box-shadow: -1px 1px 5px rgb(112, 255, 219);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -399,7 +399,7 @@ content-page
 }
 
 .b_0 {
-  box-shadow: -1px 1px 5px rgba(229, 229, 229, 0.649);
+  box-shadow: -1px 1px 5px rgb(112, 255, 219);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -419,7 +419,7 @@ content-page
 .formulas_s {
   background-color: white;
   border-radius: 0.5rem;
-  box-shadow: -1px 1px 5px rgb(204, 204, 204);
+  box-shadow: -1px 1px 5px rgb(112, 255, 219);
   padding: 1rem;
   max-width: 100%;
   background-color: white;
@@ -458,7 +458,7 @@ formula-page
 .Formula_sq {
   background-color: white;
   border-radius: 0.5rem;
-  box-shadow: -1px 1px 5px rgb(204, 204, 204);
+  box-shadow: -1px 1px 5px rgb(112, 255, 219);
   padding: 2rem 1.2rem;
   width: 100%;
 }
@@ -528,7 +528,7 @@ formula-page
 }
 
 .book_save_button {
-  box-shadow: -1px 1px 5px rgba(229, 229, 229, 0.649);
+  box-shadow: -1px 1px 5px rgb(112, 255, 219);
   display: flex;
   justify-content: center;
   align-items: center;
