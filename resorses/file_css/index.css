@@ -39,7 +39,8 @@ img {
 }
 
 img, svg {
-  height: auto;
+  height: 100px;
+  width: 100px;
 }
 
 address {
@@ -193,6 +194,11 @@ body {
 h1 {
   color: #303030;
   font-size: 2rem;
+}
+.pen{
+  height: 200px;
+  width: 200px;
+  offset: 10px;
 }
 
 .trash, .pen:hover, .discard:hover, .create_formula:hover, .save:hover {
