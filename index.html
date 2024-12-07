@@ -18,6 +18,7 @@
 </head>
 
 <body>
+
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -38,6 +39,9 @@
             </div>
           </nav>
     </header>
+    <div class="bgvideo">
+        <video src="resorses/_icons/184941-874460311.mp4" type="video.mp4" autoplay muted loop></video>  
+    </div>
 
     <section class="container">
 
@@ -55,6 +59,14 @@
             <label for="btn_usdt" class="menu_button">USDT</label>      
             <input type="radio" id="btn_ton" name="menu" class="menu_radio">
             <label for="btn_ton" class="menu_button">TON</label>
+        </div>
+        <div class="empty-state">
+            <div class="image"><img class="image_0" src="resorses/_icons/Illustration.svg" alt="EMPTY"></div>
+            <div class="t_1">Oopsie, seems that you have no settings yet</div>
+            <div class="t_2">Create your first setting!</div>
+            <div class="header-controls">
+                <a href="content.html" class="btn-primary btn" aria-controls="create-setting">+</a>
+            </div>
         </div>
 
         <table class="table settings-table">
@@ -82,9 +94,6 @@
                 </tr>
             </tbody>
         </table>
-        <div class="bgvideo">
-            <video src="resorses/_icons/184941-874460311_medium.mp4" type="video.mp4" autoplay muted loop></video>  
-        </div>
     </section>
     <script type="application/json" id="state">
         {

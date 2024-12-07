@@ -41,7 +41,7 @@ const query = {
         }
     `
 }
-//https://shopify.dev/docs/api/admin-graphql тут можна дослідити як працювати з API graphql
+//https://shopify.dev/docs/api/admin-graphql
 async function fetchShopifyData(query, variables = null) {
     const response = await fetch('http://localhost:3000/api/shopify-admin', {
         method: 'POST',

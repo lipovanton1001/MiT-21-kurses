@@ -13,7 +13,7 @@ router.post('/shopify-admin', async (req, res) => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'X-Shopify-Access-Token': SHOPIFY_ADMIN_API_KEY,
+                'X-Shopify-Access-Token': process.env.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,
             },
             body: JSON.stringify(req.body),
         });
